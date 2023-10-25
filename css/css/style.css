@@ -1,0 +1,81 @@
+.main{
+    position: relative;
+    height: 480px;
+    width: 312px;
+    background-color: rgb(58, 57, 58);
+    border-radius: 10px;
+    margin: 10% auto;
+}
+
+.screen{
+    position: absolute;
+    height: 5vw;
+    width: 90%;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+    left: 5%;
+    top: 2%;
+}
+
+.text_show{
+    font-size: 30px;
+    line-height: 5vw;
+    float: right;
+    margin-right: 3%;
+}
+
+.line{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 120px;
+    left: 0;
+}
+
+.logic{
+    position: relative;
+    padding-top: 140px;
+    margin-left: 9%;
+}
+
+.logic button{
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.input_value{
+    width: 100%;
+    height: 60px;
+    z-index: 2;
+}
+
+.input_integer{
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    row-gap: 5px;
+    column-gap: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.input_delete{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.input_more{
+    display: grid;
+    grid-template-columns: repeat(4,60px);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.delete{
+    z-index: 1;
+}
+.fa-delete-left{
+    z-index: 0;
+}
